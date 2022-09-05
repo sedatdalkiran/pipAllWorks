@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8F71B428970F0C00540E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71B328970F0C00540E65 /* AppDelegate.swift */; };
+		6B8F71B628970F0C00540E65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71B528970F0C00540E65 /* SceneDelegate.swift */; };
+		6B8F71BB28970F0C00540E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F71B928970F0C00540E65 /* Main.storyboard */; };
+		6B8F71BE28970F0C00540E65 /* PipApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71BC28970F0C00540E65 /* PipApp.xcdatamodeld */; };
+		6B8F71C028970F0F00540E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F71BF28970F0F00540E65 /* Assets.xcassets */; };
+		6B8F71C328970F0F00540E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F71C128970F0F00540E65 /* LaunchScreen.storyboard */; };
+		6B8F71CE28970F1000540E65 /* PipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71CD28970F1000540E65 /* PipAppTests.swift */; };
+		6B8F71D828970F1000540E65 /* PipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71D728970F1000540E65 /* PipAppUITests.swift */; };
+		6B8F71DA28970F1000540E65 /* PipAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F71D928970F1000540E65 /* PipAppUITestsLaunchTests.swift */; };
+		6BC31CC6289B9B58009488A9 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC31CC5289B9B58009488A9 /* AVPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8F71CA28970F1000540E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8F71A828970F0C00540E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8F71AF28970F0C00540E65;
+			remoteInfo = PipApp;
+		};
+		6B8F71D428970F1000540E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8F71A828970F0C00540E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8F71AF28970F0C00540E65;
+			remoteInfo = PipApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B8F71B028970F0C00540E65 /* PipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F71B328970F0C00540E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B8F71B528970F0C00540E65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B8F71BA28970F0C00540E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B8F71BD28970F0C00540E65 /* PipApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PipApp.xcdatamodel; sourceTree = "<group>"; };
+		6B8F71BF28970F0F00540E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8F71C228970F0F00540E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8F71C428970F0F00540E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8F71C928970F1000540E65 /* PipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F71CD28970F1000540E65 /* PipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipAppTests.swift; sourceTree = "<group>"; };
+		6B8F71D328970F1000540E65 /* PipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F71D728970F1000540E65 /* PipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipAppUITests.swift; sourceTree = "<group>"; };
+		6B8F71D928970F1000540E65 /* PipAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BC31CC5289B9B58009488A9 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8F71AD28970F0C00540E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71C628970F1000540E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71D028970F1000540E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8F71A728970F0C00540E65 = {
+			isa = PBXGroup;
+			children = (
+				6B8F71B228970F0C00540E65 /* PipApp */,
+				6B8F71CC28970F1000540E65 /* PipAppTests */,
+				6B8F71D628970F1000540E65 /* PipAppUITests */,
+				6B8F71B128970F0C00540E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8F71B128970F0C00540E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F71B028970F0C00540E65 /* PipApp.app */,
+				6B8F71C928970F1000540E65 /* PipAppTests.xctest */,
+				6B8F71D328970F1000540E65 /* PipAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8F71B228970F0C00540E65 /* PipApp */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F71B328970F0C00540E65 /* AppDelegate.swift */,
+				6B8F71B528970F0C00540E65 /* SceneDelegate.swift */,
+				6B8F71B928970F0C00540E65 /* Main.storyboard */,
+				6B8F71BF28970F0F00540E65 /* Assets.xcassets */,
+				6B8F71C128970F0F00540E65 /* LaunchScreen.storyboard */,
+				6B8F71C428970F0F00540E65 /* Info.plist */,
+				6B8F71BC28970F0C00540E65 /* PipApp.xcdatamodeld */,
+				6BC31CC5289B9B58009488A9 /* AVPlayerViewController.swift */,
+			);
+			path = PipApp;
+			sourceTree = "<group>";
+		};
+		6B8F71CC28970F1000540E65 /* PipAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F71CD28970F1000540E65 /* PipAppTests.swift */,
+			);
+			path = PipAppTests;
+			sourceTree = "<group>";
+		};
+		6B8F71D628970F1000540E65 /* PipAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F71D728970F1000540E65 /* PipAppUITests.swift */,
+				6B8F71D928970F1000540E65 /* PipAppUITestsLaunchTests.swift */,
+			);
+			path = PipAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8F71AF28970F0C00540E65 /* PipApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F71DD28970F1000540E65 /* Build configuration list for PBXNativeTarget "PipApp" */;
+			buildPhases = (
+				6B8F71AC28970F0C00540E65 /* Sources */,
+				6B8F71AD28970F0C00540E65 /* Frameworks */,
+				6B8F71AE28970F0C00540E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PipApp;
+			productName = PipApp;
+			productReference = 6B8F71B028970F0C00540E65 /* PipApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8F71C828970F1000540E65 /* PipAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F71E028970F1000540E65 /* Build configuration list for PBXNativeTarget "PipAppTests" */;
+			buildPhases = (
+				6B8F71C528970F1000540E65 /* Sources */,
+				6B8F71C628970F1000540E65 /* Frameworks */,
+				6B8F71C728970F1000540E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8F71CB28970F1000540E65 /* PBXTargetDependency */,
+			);
+			name = PipAppTests;
+			productName = PipAppTests;
+			productReference = 6B8F71C928970F1000540E65 /* PipAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B8F71D228970F1000540E65 /* PipAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F71E328970F1000540E65 /* Build configuration list for PBXNativeTarget "PipAppUITests" */;
+			buildPhases = (
+				6B8F71CF28970F1000540E65 /* Sources */,
+				6B8F71D028970F1000540E65 /* Frameworks */,
+				6B8F71D128970F1000540E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8F71D528970F1000540E65 /* PBXTargetDependency */,
+			);
+			name = PipAppUITests;
+			productName = PipAppUITests;
+			productReference = 6B8F71D328970F1000540E65 /* PipAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8F71A828970F0C00540E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6B8F71AF28970F0C00540E65 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B8F71C828970F1000540E65 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6B8F71AF28970F0C00540E65;
+					};
+					6B8F71D228970F1000540E65 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6B8F71AF28970F0C00540E65;
+					};
+				};
+			};
+			buildConfigurationList = 6B8F71AB28970F0C00540E65 /* Build configuration list for PBXProject "PipApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8F71A728970F0C00540E65;
+			productRefGroup = 6B8F71B128970F0C00540E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8F71AF28970F0C00540E65 /* PipApp */,
+				6B8F71C828970F1000540E65 /* PipAppTests */,
+				6B8F71D228970F1000540E65 /* PipAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8F71AE28970F0C00540E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F71C328970F0F00540E65 /* LaunchScreen.storyboard in Resources */,
+				6B8F71C028970F0F00540E65 /* Assets.xcassets in Resources */,
+				6B8F71BB28970F0C00540E65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71C728970F1000540E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71D128970F1000540E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8F71AC28970F0C00540E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F71BE28970F0C00540E65 /* PipApp.xcdatamodeld in Sources */,
+				6B8F71B428970F0C00540E65 /* AppDelegate.swift in Sources */,
+				6BC31CC6289B9B58009488A9 /* AVPlayerViewController.swift in Sources */,
+				6B8F71B628970F0C00540E65 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71C528970F1000540E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F71CE28970F1000540E65 /* PipAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F71CF28970F1000540E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F71DA28970F1000540E65 /* PipAppUITestsLaunchTests.swift in Sources */,
+				6B8F71D828970F1000540E65 /* PipAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8F71CB28970F1000540E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8F71AF28970F0C00540E65 /* PipApp */;
+			targetProxy = 6B8F71CA28970F1000540E65 /* PBXContainerItemProxy */;
+		};
+		6B8F71D528970F1000540E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8F71AF28970F0C00540E65 /* PipApp */;
+			targetProxy = 6B8F71D428970F1000540E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8F71B928970F0C00540E65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8F71BA28970F0C00540E65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8F71C128970F0F00540E65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8F71C228970F0F00540E65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8F71DB28970F1000540E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8F71DC28970F1000540E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8F71DE28970F1000540E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PipApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B8F71DF28970F1000540E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PipApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B8F71E128970F1000540E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PipApp.app/PipApp";
+			};
+			name = Debug;
+		};
+		6B8F71E228970F1000540E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PipApp.app/PipApp";
+			};
+			name = Release;
+		};
+		6B8F71E428970F1000540E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PipApp;
+			};
+			name = Debug;
+		};
+		6B8F71E528970F1000540E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FW7N6HTYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Turkcell.PipAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PipApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8F71AB28970F0C00540E65 /* Build configuration list for PBXProject "PipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F71DB28970F1000540E65 /* Debug */,
+				6B8F71DC28970F1000540E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F71DD28970F1000540E65 /* Build configuration list for PBXNativeTarget "PipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F71DE28970F1000540E65 /* Debug */,
+				6B8F71DF28970F1000540E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F71E028970F1000540E65 /* Build configuration list for PBXNativeTarget "PipAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F71E128970F1000540E65 /* Debug */,
+				6B8F71E228970F1000540E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F71E328970F1000540E65 /* Build configuration list for PBXNativeTarget "PipAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F71E428970F1000540E65 /* Debug */,
+				6B8F71E528970F1000540E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B8F71BC28970F0C00540E65 /* PipApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B8F71BD28970F0C00540E65 /* PipApp.xcdatamodel */,
+			);
+			currentVersion = 6B8F71BD28970F0C00540E65 /* PipApp.xcdatamodel */;
+			path = PipApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B8F71A828970F0C00540E65 /* Project object */;
+}
